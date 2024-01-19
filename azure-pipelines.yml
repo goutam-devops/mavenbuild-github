@@ -19,7 +19,7 @@ jobs:
             - script: pwd
 
 - deployment: VMDeploy2
-  displayName: Deploy to VM
+  displayName: Deploy to VM 2
   environment: 
    name: devops-env-agent2
    resourceName: azure-devops-vm1
