@@ -17,3 +17,16 @@ jobs:
           steps:
             - script: echo "Hello world"
             - script: pwd
+
+- deployment: VMDeploy2
+  displayName: Deploy to VM
+  environment: 
+   name: devops-env
+   resourceName: azure-devops-vm1
+   resourceType: virtualMachine
+  strategy:
+     runOnce:
+        deploy:   
+          steps:
+            - script: echo "Hello world  2 2 "
+            - script: pwd
