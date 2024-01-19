@@ -21,7 +21,7 @@ jobs:
 - deployment: VMDeploy2
   displayName: Deploy to VM
   environment: 
-   name: devops-env
+   name: devops-env-agent2
    resourceName: azure-devops-vm1
    resourceType: virtualMachine
   strategy:
